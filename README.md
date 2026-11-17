@@ -155,3 +155,11 @@ O Sistema de Controle de Estoque e Vendas do Mercado Santa Fé tem como objetivo
 ## Desenvolvimento
 
 O projeto está sendo desenvolvido em etapas, começando pela estrutura inicial e evoluindo conforme os requisitos definidos para o MVP.
+
+## Arquitetura e qualidade
+
+O sistema utiliza Django em uma arquitetura monolítica organizada em camadas, separando modelos, formulários, visualizações e rotas.
+
+A aplicação utiliza validação de dados no servidor, autenticação de usuários e Django ORM para acesso ao banco de dados.
+
+Os testes automatizados verificam o comportamento do estoque mínimo e o acesso autenticado à listagem de produtos.
