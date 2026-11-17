@@ -1,0 +1,15 @@
+{% extends "estoque/base.html" %}
+{% block title %}Entrar | Mercado Santa Fé{% endblock %}
+{% block content %}
+<div class="row justify-content-center"><div class="col-md-6 col-lg-4">
+  <h1 class="h3 mb-3">Acessar o sistema</h1>
+  <form method="post" class="card card-body shadow-sm">
+    {% csrf_token %}
+    {% if form.errors %}<div class="alert alert-danger" role="alert">Usuário ou senha inválidos.</div>{% endif %}
+    <div class="mb-3"><label class="form-label" for="{{ form.username.id_for_label }}">Usuário</label>{{ form.username }}</div>
+    <div class="mb-3"><label class="form-label" for="{{ form.password.id_for_label }}">Senha</label>{{ form.password }}</div>
+    <input type="hidden" name="next" value="{{ next }}">
+    <button class="btn btn-success w-100" type="submit">Entrar</button>
+  </form>
+</div></div>
+{% endblock %}
