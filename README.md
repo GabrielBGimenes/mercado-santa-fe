@@ -131,3 +131,27 @@ O MVP prioriza cadastro e consulta de produtos, movimentações de estoque e reg
 ## Licença
 
 Projeto acadêmico desenvolvido para fins educacionais.
+
+## Objetivo do projeto
+
+O Sistema de Controle de Estoque e Vendas do Mercado Santa Fé tem como objetivo facilitar o gerenciamento de produtos, movimentações de estoque e vendas do estabelecimento.
+
+## Tecnologias utilizadas
+
+- Python
+- Django
+- Bootstrap
+- PostgreSQL
+- HTML e CSS
+
+## Funcionalidades previstas
+
+- Cadastro e consulta de produtos.
+- Controle de entradas e saídas.
+- Registro de vendas.
+- Atualização automática do estoque.
+- Identificação de produtos com estoque baixo.
+
+## Desenvolvimento
+
+O projeto está sendo desenvolvido em etapas, começando pela estrutura inicial e evoluindo conforme os requisitos definidos para o MVP.
